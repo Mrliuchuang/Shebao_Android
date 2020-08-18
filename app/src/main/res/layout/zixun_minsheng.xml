@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/minsheng_title"
+        android:layout_width="335dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="18dp"
+        android:text="title"
+        android:layout_marginTop="10dp"
+        android:textColor="#000000"
+        android:textSize="17dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+     >
+        <TextView
+            android:id="@+id/renyuanleixing_rizhi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:gravity="center_vertical"
+            android:text="类型"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/trend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="18dp"
+            android:layout_alignParentRight="true"
+            android:text="tred"
+            android:textSize="14dp" />
+
+
+    </RelativeLayout>
+    <TextView
+        android:background="@color/huise"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:layout_width="320dp"
+        android:layout_height="1dp" />
+</LinearLayout>

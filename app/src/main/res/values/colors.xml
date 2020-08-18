@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="main">#ffffff</color>
+    <color name="huise">#ebebeb</color>
+    <color name="lanse">#68b6fe</color>
+    <color name="huise1">#f5f5f5</color>
+    <color name="transparent">#00000000</color>
+    <color name="background">#F7F4F0</color>
+    <color name="title_color">#333333</color>
+    <color name="zhuse">#f18c64</color>
+    <color name="zhuse1">#989ba2</color>
+</resources>

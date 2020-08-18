@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="210dp"
+            android:layout_marginTop="5dp"
+            android:orientation="vertical">
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/vp"
+                android:layout_width="fill_parent"
+                android:layout_height="165dp"
+                android:layout_marginTop="19dp" />
+
+            <LinearLayout
+                android:id="@+id/ll"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:background="#f5f5f5"></View>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="5dp"
+                android:layout_height="25dp"
+                android:layout_marginLeft="15dp"
+                android:background="@color/lanse" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="3dp"
+                android:text="热点资讯"
+                android:textColor="#000000" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="12dp"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:id="@+id/rel_hd_swn"
+                    android:layout_width="65dp"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/hd_songwn_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:layout_weight="1"
+                        android:text="民生热点"
+
+                        android:textColor="#000000" />
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content" />
+                <RelativeLayout
+                    android:id="@+id/rel_hd_qw"
+                    android:layout_width="65dp"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/hd_quwei_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:layout_weight="1"
+                        android:text="实时热点"
+
+                        android:textColor="#000000" />
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content" />
+
+                <RelativeLayout
+                    android:id="@+id/rel_shisi"
+                    android:layout_width="65dp"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/hd_shishi"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:layout_weight="1"
+                        android:text="人物热点"
+
+                        android:textColor="#000000" />
+                </RelativeLayout>
+
+            </LinearLayout>
+
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/vp_huodong"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="18.5"></android.support.v4.view.ViewPager>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

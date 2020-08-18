@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+    android:orientation="vertical"
+tools:context="com.example.liuchuang.shebao.shebaochaxun.yanglaobaoxian">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff">
+
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dp"
+            android:background="@mipmap/back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="26dp"
+            android:text="返回"
+            android:onClick="backyanglao"
+            android:textColor="#5289e4"
+            android:textSize="14dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="社保查询"
+            android:textColor="#000000"
+            android:textSize="16dp" />
+    </RelativeLayout>
+    <EditText
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:background="@mipmap/bbjj"
+        android:gravity="center"
+        android:hint="请输入你的身份证号"
+        android:layout_width="320dp"
+        android:layout_height="50dp" />
+    <Button
+        android:onClick="kaishichaxun"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:text="开始查询"
+        android:textColor="#ffffff"
+        android:textSize="15dp"
+        android:layout_gravity="center"
+        android:background="@drawable/chaxunshebao"/>
+</LinearLayout>
+

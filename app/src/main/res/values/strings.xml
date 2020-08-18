@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">基于活体检测的社保人员生存认证</string>
+    <!-- PLEASE KEEP THIS App ID IN SAFE PLACE -->
+    <!-- Get your own App ID at https://dashboard.agora.io/ -->
+    <!-- After you entered the App ID, remove <##> outside of Your App ID -->
+    <!-- For formal released project, please use Security Keys/Token
+    https://docs.agora.io/en/2.3.1/product/Video/Agora%20Platform/key_native?platform=Android -->
+    <!-- Tutorial Step 1 -->
+    <string name="agora_app_id">a50c29dc93384de5b0caf03f10aa962e</string>
+    <string name="header_hint_refresh_normal">下拉刷新</string>
+    <string name="header_hint_refresh_ready">释放立即刷新</string>
+    <string name="header_hint_refresh_loading">正在刷新&#8230;</string>
+    <string name="header_hint_refresh_time">上次刷新：</string>
+    <string name="footer_hint_load_normal">加载更多</string>
+    <string name="footer_hint_load_ready">释放加载更多</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
